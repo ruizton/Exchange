@@ -73,7 +73,7 @@ sign=md5(api_key1234567time12312312312137789654secret_key789654)，32位大写
 
 ## <span id="a6">请求交互</span>
 
-REST访问的根URL：``` https://www.btyun.me/open/api.html?action=xx ```
+REST访问的根URL：``` https://xxx.com/open/api.html?action=xx ```
 注：action为每个接口的名称，也不参与加密
 
 ###  <span id="a7">请求</span>
@@ -157,7 +157,7 @@ REST API
 
 ### <span id="1">获取所有的交易对</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=ex_mappings
+1. 接口地址: https://xxx.com/open/api.html?action=ex_mappings
 2. 接口说明: (get请求)获取所有的交易对
 
 |参数|    填写类型|   说明|
@@ -193,7 +193,7 @@ REST API
 
 ### <span id="2">获取最新成交记录</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=ex_transactions
+1. 接口地址: https://xxx.com/open/api.html?action=ex_transactions
 2. 接口说明: (get请求)获取全站最新交易成交记录
 
 |参数|    填写类型|   说明|
@@ -232,7 +232,7 @@ REST API
 
 ### <span id="3">获取实时行情</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=ex_market
+1. 接口地址: https://xxx.com/open/api.html?action=ex_market
 2. 接口说明: (get请求)获取对应交易对的价格和成交信息
 
 |参数|    填写类型|   说明|
@@ -271,7 +271,7 @@ REST API
 
 ### <span id="4">获取市场深度</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=order_depth
+1. 接口地址: https://xxx.com/open/api.html?action=order_depth
 2. 接口说明: (get请求)获取对应交易对的市场深度
 
 |参数|    填写类型|   说明|
@@ -315,7 +315,7 @@ REST API
 
 ### <span id="5">获取K线信息</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=ex_kline
+1. 接口地址: https://xxx.com/open/api.html?action=ex_kline
 2. 接口说明: (get请求)获取对应交易对的市场深度
 
 |参数|    填写类型|   说明|
@@ -355,7 +355,7 @@ REST API
 
 ### <span id="6">获取用户资产</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=get_userinfo
+1. 接口地址: https://xxx.com/open/api.html?action=get_userinfo
 2. 接口说明: (get请求)获取用户的资产详情
 
 |参数|    填写类型|   说明|
@@ -395,7 +395,7 @@ REST API
 
 ### <span id="7">创建订单</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=create_orders
+1. 接口地址: https://xxx.com/open/api.html?action=create_orders
 2. 接口说明: (get请求)创建委托单
 
 |参数|    填写类型|   说明|
@@ -427,7 +427,7 @@ REST API
 
 ### <span id="8">取消委托单</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=cancel_order
+1. 接口地址: https://xxx.com/open/api.html?action=cancel_order
 2. 接口说明: (get请求)创建委托单
 
 |参数|    填写类型|   说明|
@@ -456,7 +456,7 @@ REST API
 
 ### <span id="9">获取当前委托</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=get_open_orders
+1. 接口地址: https://xxx.com/open/api.html?action=get_open_orders
 2. 接口说明: (get请求)根据交易对ID，获取未完成的委托单
 
 |参数|    填写类型|   说明|
@@ -504,7 +504,7 @@ REST API
 
 ### <span id="10">获取订单详情</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=get_order_details
+1. 接口地址: https://xxx.com/open/api.html?action=get_order_details
 2. 接口说明: (get请求)根据订单ID，获取订单的详情
 
 |参数|    填写类型|   说明|
@@ -547,7 +547,7 @@ REST API
 
 ### <span id="11">获取成交委单记录</span>
 
-1. 接口地址: https://www.btyun.me/open/api.html?action=get_order_history
+1. 接口地址: https://xxx.com/open/api.html?action=get_order_history
 2. 接口说明: (get请求)获取最近有成交的委托记录
 
 |参数|    填写类型|   说明|
